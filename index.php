@@ -1,5 +1,5 @@
 <?php
-$conn = new mysqli("localhost","root","","todolist");
+$conn = new mysqli("localhost","todo_user1","Hasan123","todo_app");
 if ($conn->connect_error) {
     die("Connection Failed " . $conn->connect_error);
 }
